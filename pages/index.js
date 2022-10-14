@@ -7,12 +7,13 @@ import Navbar from './../components/Navbar';
 
 export default function Home() {
   return (
-<WindowDimentionsContextProvider>
+    <WindowDimentionsContextProvider>
 
       <div>
         <Head>
-          <title>Practise1</title>
-          <meta name="description" content="Practise1 Next.js" />
+          <title>AAST | E-Learning</title>
+          <meta name="description" content="Platform to enrich your
+Learning Experience" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <header>
@@ -28,6 +29,6 @@ export default function Home() {
 
         </footer>
       </div>
-</WindowDimentionsContextProvider>
+    </WindowDimentionsContextProvider>
   )
 }
