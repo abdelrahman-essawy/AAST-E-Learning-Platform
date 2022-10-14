@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Hero from './hero/Hero'
+import Hero from './Hero/Hero'
 import { useEffect, useContext } from 'react';
 import { WindowDimentionsContextProvider } from './api/Context/WindowDimentionsContext';
 import Navbar from './../components/Navbar';
