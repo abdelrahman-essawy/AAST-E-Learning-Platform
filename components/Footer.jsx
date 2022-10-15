@@ -32,7 +32,7 @@ export default function Footer() {
                         <a href="#" className="hover:underline">Contact</a>
                     </li> */}
                     {
-                        navigation.map((item) => {
+                        navigation.map((item, index) => {
                             return (<li>
                                 <a href={item.href} key={item.index} className="mr-4 hover:underline md:mr-6 ">{item.name}</a>
                             </li>)
