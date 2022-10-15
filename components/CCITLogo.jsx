@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const CCITLogo = (props, fill = '#d1d5db') => (
+const CCITLogo = (props, fill = '#e5e7eb') => (
     <svg
         xmlns='http://www.w3.org/2000/svg'
         width='239.000000pt'

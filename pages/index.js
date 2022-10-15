@@ -4,12 +4,13 @@ import Hero from './Hero/Hero'
 import { useEffect, useContext } from 'react';
 import { WindowDimentionsContextProvider } from './api/Context/WindowDimentionsContext';
 import Navbar from './../components/Navbar';
+import Courses from './Courses/Courses';
 
 export default function Home() {
   return (
     <WindowDimentionsContextProvider>
 
-      <div>
+      <div className='scroll-smooth'>
         <Head>
           <title>AAST | E-Learning</title>
           <meta name="description" content="Platform to enrich your
@@ -21,8 +22,9 @@ Learning Experience" />
 
         </header>
 
-        <main >
+        <main className='scroll-smooth'>
           <Hero />
+          <Courses />
         </main>
 
         <footer >
