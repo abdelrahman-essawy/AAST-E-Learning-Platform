@@ -1,5 +1,4 @@
 import React from 'react'
-import Script from 'next/Script'
 
 
 export default function AlertBadge() {
