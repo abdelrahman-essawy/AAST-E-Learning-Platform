@@ -15,7 +15,7 @@ export default function Footer() {
         <footer className="p-4 bg-gray-200 shadow md:px-6 md:py-8 dark:bg-gray-800">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="#" className="flex mb-4 sm:mb-0">
-                    <AASTLogo className='mr-1' width={35} height={35} fill={'#f9fafb'}/>
+                    <AASTLogo className='mr-1' width={35} height={35} fill={'#f9fafb'} />
                     <span className="text-2xl font-semibold whitespace-nowrap dark:text-gray-200">AAST</span>
                 </a>
                 <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
@@ -33,9 +33,10 @@ export default function Footer() {
                     </li> */}
                     {
                         navigation.map((item, index) => {
-                            return (<li>
-                                <a href={item.href} key={index} className="mr-4 hover:underline md:mr-6 ">{item.name}</a>
-                            </li>)
+                            return (
+                                <li key={index} >
+                                    <a href={item.href} className="mr-4 hover:underline md:mr-6 ">{item.name}</a>
+                                </li>)
                         })
                     }
 
