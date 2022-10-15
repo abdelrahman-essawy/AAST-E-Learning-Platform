@@ -30,8 +30,8 @@ const features = [
 
 export default function Features() {
     return (
-        <div className="flex bg-gray-50 max-w-screen overflow-visible 2xl:h-[calc(50vh-8px)] lg:h-[calc(100vh-8px)] ">
-            <div className="lg:m-auto my-12 max-w-7xl px-4 sm:px-6 lg:px-8 ">
+        <div className="flex bg-gray-50 max-w-screen overflow-visible">
+            <div className="m-auto my-12 2xl:my-16 max-w-7xl px-4 sm:px-6 lg:px-8 ">
                 <div className="lg:text-center">
                     <h2 className="text-lg font-semibold text-indigo-600">Features</h2>
                     <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-800 sm:text-4xl">

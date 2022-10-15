@@ -6,8 +6,8 @@ import AASTLogo from '../AASTLogo'
 export default function Hero() {
   return (
     <article className="relative overflow-hidden bg-gray-800">
-      <div className="mx-auto  max-w-7xl 2xl:mb-20">
-        <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-3xl lg:pb-28 overflow-visible xl:pb-32 2xl:h-[calc(50vh-184px)] lg:h-[calc(100vh-184px)] h-fit">
+      <div className="mx-auto max-w-7xl 2xl:mb-20">
+        <div className="relative z-10 pb-8 sm:pb-16  lg:w-full lg:max-w-3xl lg:pb-28 overflow-visible">
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 mb-12 md:mb-0 ">
             <AASTLogo className='mobile lg:hidden m-auto' fill={'#d1d5db'} width='300' height='300' />
 
