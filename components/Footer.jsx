@@ -34,7 +34,7 @@ export default function Footer() {
                     {
                         navigation.map((item) => {
                             return (<li>
-                                <a href={item.href} className="mr-4 hover:underline md:mr-6 ">{item.name}</a>
+                                <a href={item.href} key={item.index} className="mr-4 hover:underline md:mr-6 ">{item.name}</a>
                             </li>)
                         })
                     }
