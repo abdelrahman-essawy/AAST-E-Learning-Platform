@@ -1,5 +1,5 @@
 import React from 'react'
-import AASTLogo from './AASTLogo';
+import AASTLogo from '../AASTLogo';
 
 export default function Footer() {
 

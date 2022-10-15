@@ -1,5 +1,5 @@
 import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
-import Hr from '../../components/Hr'
+import Hr from '../Hr'
 
 const features = [
     {

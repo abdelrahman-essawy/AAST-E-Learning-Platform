@@ -1,10 +1,11 @@
 import Head from 'next/head'
-import Hero from './Hero/Hero'
 import { useEffect, useContext } from 'react';
-import Navbar from './../components/Navbar';
-import Features from './Features/Features';
-import Footer from './../components/Footer';
 import Hr from './../components/Hr';
+import Hero from './../components/Hero/Hero';
+import Features from './../components/Features/Features';
+import Footer from '../components/Footer/Footer';
+import Navbar from './../components/Navbar/Navbar';
+import AlertBadge from './../components/Badge/AlertBadge';
 
 
 
@@ -16,10 +17,16 @@ export default function Home() {
         <title>AAST | E-Learning</title>
         <meta name="description" content="Platform to enrich your Learning Experience" />
         <link rel="icon" href="/favicon.ico" />
+
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
       </Head>
 
 
       <header>
+      <AlertBadge />
         <Navbar />
 
       </header>
