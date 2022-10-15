@@ -5,10 +5,10 @@ import AASTLogo from '../AASTLogo'
 
 export default function Hero() {
   return (
-    <article className="relative overflow-hidden bg-gray-800">
-      <div className="mx-auto max-w-7xl 2xl:mb-20">
-        <div className="relative z-10 pb-8 sm:pb-16  lg:w-full lg:max-w-3xl lg:pb-28 overflow-visible">
-          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 mb-12 md:mb-0 ">
+    <article className="relative overflow-hidden min-w-full bg-gray-800">
+      <div className="max-w-7xl mx-auto mb-12 mt-4 lg:my-0 px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center">
+          <articale className="">
             <AASTLogo className='mobile lg:hidden m-auto' fill={'#d1d5db'} width='300' height='300' />
 
             <div className="sm:text-center lg:text-left">
@@ -42,12 +42,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </main>
-        </div>
-      </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 md:translate-x-28 lg:w-1/2">
-        <div className='lg:bottom-1/4 flex justify-start'>
-
+          </articale>
           <AASTLogo className='lg:block hidden' fill={'#e5e7eb'} width='500' height='600' />
         </div>
       </div>
