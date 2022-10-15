@@ -10,11 +10,16 @@
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.1",
+    "jsdom": "^20.0.1",
+    "net": "^1.0.2",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "smooth-scrollbar": "^8.8.1",
-    "smooth-scrollbar-react": "^2.3.0"
+    "smooth-scrollbar-react": "^2.3.0",
+    "tls": "^0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
@@ -40,6 +45,5 @@
     "aast",
     "platform",
     "next.tailwind"
-  ],
-  "version": "1.0.0"
+  ]
 }
