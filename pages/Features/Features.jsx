@@ -1,4 +1,5 @@
 import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
+import Hr from '../../components/Hr'
 
 const features = [
     {
@@ -27,12 +28,10 @@ const features = [
     },
 ]
 
-export default function Courses() {
+export default function Features() {
     return (
-        <div className="bg-gray-50 ">
-            <div class="bg-gradient-to-r from-[#6366f1] via-teal-500 to-[#6366f1] h-2 sm:mb-20"></div>
-
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10 ">
+        <div className="flex bg-gray-50 max-w-screen overflow-visible 2xl:h-[calc(50vh-8px)] lg:h-[calc(100vh-8px)] ">
+            <div className="lg:m-auto my-12 max-w-7xl px-4 sm:px-6 lg:px-8 ">
                 <div className="lg:text-center">
                     <h2 className="text-lg font-semibold text-indigo-600">Features</h2>
                     <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-800 sm:text-4xl">
