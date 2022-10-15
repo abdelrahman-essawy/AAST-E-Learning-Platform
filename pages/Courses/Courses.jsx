@@ -32,7 +32,7 @@ export default function Courses() {
         <div className="bg-gray-50 ">
             <div class="bg-gradient-to-r from-[#6366f1] via-teal-500 to-[#6366f1] h-2 sm:mb-20"></div>
 
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-10 ">
                 <div className="lg:text-center">
                     <h2 className="text-lg font-semibold text-indigo-600">Features</h2>
                     <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-800 sm:text-4xl">
