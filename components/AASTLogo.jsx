@@ -4,7 +4,7 @@ const AASTLogo = (props, fill ='#e5e7eb') => (
     <svg
         xmlns='http://www.w3.org/2000/svg'
         width='900.000000pt'
-        height='760.000000pt'
+        height='900.000000pt'
         viewBox='0 0 900.000000 760.000000'
         preserveAspectRatio='xMidYMid meet'
         {...props}
