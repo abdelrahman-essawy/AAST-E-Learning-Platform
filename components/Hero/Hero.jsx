@@ -14,11 +14,11 @@ export default function Hero() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl font-bold tracking-tight text-center text-gray-300 leading-tight sm:text-5xl lg:text-start md:text-6xl">
                 <span className="block xl:inline">Platform to enrich your <br /></span>
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-teal-500 to-indigo-600 xl:inline ">Learning Experience</span>
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-teal-500 to-indigo-600 xl:inline pb-3">Learning Experience</span>
               </h1>
 
 
-              <p className="mt-3 text-base text-center text-gray-500 lg:text-start sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+              <p className=" text-base text-center text-gray-500 lg:text-start sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                 <br /> For <span className='font-bold'>Instructors</span> who wish to add additional accessibility to their courses. <br /> For <span className='font-bold'>Students</span> who seek online sources that will help them increase their knowledge.
               </p>
 

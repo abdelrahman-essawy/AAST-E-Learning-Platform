@@ -9,19 +9,19 @@ const features = [
         icon: AcademicCapIcon,
     },
     {
-        name: 'lorem10',
+        name: 'lorem11',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: AcademicCapIcon,
     },
     {
-        name: 'lorem10',
+        name: 'lorem12',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: AcademicCapIcon,
     },
     {
-        name: 'lorem10',
+        name: 'lorem13',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: AcademicCapIcon,
@@ -30,7 +30,7 @@ const features = [
 
 export default function Features() {
     return (
-        <div className="flex bg-gray-50 max-w-screen overflow-hidden">
+        <div id='features' className="flex bg-gray-50 max-w-screen overflow-hidden">
             <div className="m-auto my-8 md:my-16 max-w-7xl px-4 sm:px-6 lg:px-8 ">
                 <div className="lg:text-center">
                     <h2 className="text-lg font-semibold text-indigo-600">Features</h2>

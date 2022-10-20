@@ -12,31 +12,18 @@ import AlertBadge from './../components/Badge/AlertBadge';
 export default function Home() {
   return (
     <>
-
       <Head>
         <title>AAST | E-Learning</title>
         <meta name="description" content="Platform to enrich your Learning Experience" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-
-      <header>
-        <AlertBadge />
-        <Navbar />
-
-      </header>
-
-
       <main>
+      
         <Hero />
         <Hr />
-
         <Features />
-        <Hr />
+
       </main>
-
-      <Footer />
-
     </>
 
   )
