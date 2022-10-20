@@ -153,7 +153,7 @@ export function Login({ }) {
     </header>
     <main className="relative h-[calc(100vh_-_245px)] sm:h-[calc(100vh_-_209px)] md:h-[calc(100vh_-_241px)] lg:h-[calc(100vh_-_257px)]">
       <div className="bg-gray-800 h-full flex text-sm sm:text-xl  overflow-scroll scroll-smooth">
-        <div className="w-full mx-3  md:max-w-xl  md:mx-auto md:border-gray-700 md:px-3 md:pb-10 md:mt-12 md:rounded-lg">
+        <div className="w-full mx-3  md:max-w-xl  md:mx-auto md:border-gray-700 md:px-3 md:pb-10 md:mt-12 md:rounded-lg mb-6">
           <div className="flex justify-center h-20 my-6 " >
             <AASTLogo width='70' height='70' fill={'#d1d5db'} className='self-center' />
             <h1 className="text-gray-50  text-4xl self-center" ><span className="opacity-30" >|</span> Login</h1>
